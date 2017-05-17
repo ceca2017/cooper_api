@@ -5,13 +5,14 @@ gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 gem 'jbuilder', '~> 2.5'
+gem 'devise_token_auth'
 
 group :development, :test do
  gem 'pry'
  gem 'pry-byebug'
  gem 'rspec-rails'
  gem 'shoulda-matchers'
- gem 'factory_girl_rails' 
+ gem 'factory_girl_rails'
 end
 
 group :development do
